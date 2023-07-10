@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms Forms</title>
+
+    </head>
+    <body>
+
+        <form action="">
+            <input type="text">
+        </form>
+
+        <form action="">
+            <select name="" id="">
+                <option value="audi">Audi</option>
+                <option value="audi">BMW</option>
+                <option value="audi">Cricket</option>
+                <option value="audi">Hockey</option>
+                <option value="audi">Football</option>
+            </select>
+        </form>
+        <form action="">
+            <select name="" id="" size="3">
+                <optgroup label="car">
+                    <option value="audi">Audi</option>
+                    <option value="audi">Bmw</option>
+                    <option value="audi">Mercedes</option>
+                </optgroup>
+                <optgroup label="sports">
+                    <option value="audi">Cricket</option>
+                    <option value="audi">Hockey</option>
+                    <option value="audi">football</option>
+                </optgroup>
+            </select>
+        </form>
+
+        <form action="">
+            <input type="radio" name="male" value="male">Male 
+            <input type="radio" name="female" value="male">FeMale 
+            <input type="radio" name="other" value="male">Other 
+        </form>
+        <form action="">
+            <input type="radio" name="gender" value="male">Male 
+            <input type="radio" name="gender" value="male">FeMale 
+            <input type="radio" name="gender" value="male">Other 
+        </form>
+        <form action="">
+            <input type="radio" name="male" value="male" checked>Male 
+            <input type="radio" name="female" value="male">FeMale 
+            <input type="radio" name="other" value="male">Other 
+        </form>
+
+        <form action="">
+            <input type="checkbox" name="male" value="male">Male 
+            <input type="checkbox" name="female" value="male">FeMale 
+            <input type="checkbox" name="other" value="male">Other 
+        </form>
+
+        <form method="GET/POST" action="submit.php">
+            <div>
+                Name:<input type="text">
+            </div>
+            <div>
+                <input type="color">
+            </div>
+            <div>
+                <input type="date">
+            </div>
+            <div>
+                <input type="email">
+            </div>
+            <div>
+                <input type="hidden" value="textbox">
+            </div>
+            <div>
+                <input type="number" min="10" max="15" step="2">
+            </div>
+            <div>
+                <input type="time">
+            </div>
+            <div>
+                <input type="password">
+            </div>
+            <div>
+                <input type="url">
+            </div>
+            <div>
+                Range:<input type="range" min="100" max="500">
+            </div>
+            <div>
+                <br> 
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>
+
+
+        <form enctype="multipart/form-data">
+            Multiple File Upload <input type="file" multiple>
+        </form>
+<!-- length content ki hogi & size is total box size -->
+        <form action="">
+            <input type="text" value="rocky" maxlength="7" size="70" >
+        </form>
+        <form action="">
+            <input type="text" value="rocky" maxlength="7" size="70" disabled>
+        </form>
+        <form action="">
+            <input type="text" placeholder="Please enter your name" required>
+        </form>
+
+        <!-- important -->
+        <form action="">
+            Autofocus:<input type="text" autofocus>
+        </form>
+
+        <form action="">
+            TextArea:<textarea cols="30" rows="10">HELLO SIR</textarea>
+        </form>
+        <form action="">
+            TextArea:<textarea cols="50" rows="20" placeholder="Write your text here"></textarea>
+        </form>
+
+    </body>
+</html>
